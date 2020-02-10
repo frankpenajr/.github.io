@@ -1,153 +1,118 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Francisco Pena Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-	</head>
-	<body class="is-preload">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Express Cleaners Demo</title>
+    <link rel="stylesheet" href="main.css">
+    
+</head>
+<body>
+    <header id="home">
+        <div class="menu">
+            <span class="bar"></span>
+        </div>
 
-		<!-- Wrapper -->
-			<div id="wrapper" class="fade-in">
+        <nav class="nav">
+            <a href="index.html" id="logo">Express Cleaners</a>
+            <div class="overlay">
+                <ul>
+                    <li><a href="index.html">Home</a> 
+                    <li><a href="#pickup">Place Your Order</a></li>
+                    <li><a href="#Locations">Locations</a></li>
+                    <li><a href="pickup.html">Sign up</a></li>
+                    <li><a href="schedulepickup.html">Sign In</a></li>
+                </ul>
+            </div>
+        </nav>
 
-				<!-- Intro -->
-					<div id="intro">
-						<h1>Francisco Pena Jr</h1>
-						<p>A showcase of my ablities and demo projects in Web Development </p>
-						<ul class="actions">
-							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
-						</ul>
-					</div>
+        <div class="main-text">
+            <h1>Welcome</h1>
+            <h2>Express Cleaners</h2>
+            <a href="#" class="btn main-btn">Explore</a>
+        </div>
+    </header>
 
-				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo">About Me</a>
-					</header>
+    <section class="our-story" id="story">
+        <div class="container">
+            <div class="center add-padding-right">
+                <h1 class="custom-font">Be Connected</h1>
+                <h2>Ordering from your favorite dry cleaners made easy!</h2>
+                <a href="#" class="btn btn-info">Learn More</a>
+            </div>   
+            <div class="store add-flex"></div>
+        </div>
+    </section>
 
-				<!-- Nav -->					<nav id="nav">
-						
-						<ul class="icons">
-							<li><a href="#" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
-							<li><a href="https://github.com/frankpenajr" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</u>
-					</nav>
+    <section class="find-locations between-sec" id="Locations">
+        
+            <h1 class="custom-font">Find Locations Near You</h1>
+            <a href="#" class="btn btn-info">Search Locations</a>
+        
+    </section>
 
-				<!-- Main -->
-					<div id="main">
+    <section class="booking-order" id="pickup">
+        <div class="container">
+            <div class="center second">
+            
+                <h1 class="custom-font">Place Your Order</h1>
+                <a href="schedulepickup.html" class="btn btn-info">Schedule Your Pick Up</a>
+            </div>
+            <div class="stored add-flex"></div>
+        </div>
+               
+        </section>
 
-						<!-- Featured Post -->
-							<article class="post featured">
-								<header class="major">
-									<h3><a href="#">FRONT END FOCUSED  <br>WITH FULL STACK EXPERIENCE</br></a></h3>
-									
-								</header>
-								<a href="#" class="image main"><img src="images/technologies.png" alt="" /></a>
+    <section class="Pick-up between-sec" id="Pick-up">
+            <div class="container">
+                <div class="center">
+                <h1 class="custom-font">Pick-Up</h1>
+                <a href="#" class="btn btn-info">Schedule Your Pick Up</a>
+                </div>
+            
+    </section>
 
-				
-					
-							<ul class="actions special">
-							<!--check out button if ever needed again	<li><a href="#" class="button large">Check Out</a></li> -->
-							</ul>
+    <section class="delivered-order" id="delivery">
+            <div class="container">
+                <div class="center">
+                    <h2 class="custom-font">Delivered</h2>
+                </div>  
+                    
+        </section>
 
-							</article>
-				
-						<!-- Projects -->
-							<section class="posts">
-								<article>
-									<header>
-										<h2><a href="https://frankpenajr.github.io/expresscleanersdemo.com/">Project 1<br />
-										Express Cleaners Demo</a></h2>
-									</header>
-									<a href="https://frankpenajr.github.io/expresscleanersdemo.com/" class="image fit"><img src="images/expressdemo.jpg" alt="" /></a>
-									<p> An application that will facilitate users with the nearest dry cleaners locations, as well as placing and pick up services.</p>
-									
-									<ul class="actions special">
-										<li><a href="https://github.com/frankpenajr/expresscleanersdemo.com" class="button">Code</a></li>
-									</ul>
-								</article>
+    <section class="contact-us" id="contact">
+        <div class="container">
+            <div class="center">
+                <h1 class="custom-font">Contact</h1>
+                <h2 class="custom-font-secandary">Us</h2>
+            </div>
 
-								<article>
-									<header>
-										<h2><a href="#">Propject 2<br />
-										Calorie Counter</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic03.jpg" alt="" /></a>
-									<p>Application allowing users to log what they ate for the day and have the calories and micronutrients contact be stored.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
-									</ul>
-								</article>
+        <div class="form-container add-flex add-padding-right">
+            <form action="">
+                <input type="text" class="input" placeholder="Full Name" name="name" required>
+                <input type="text" class="input" placeholder="Email" name="email" required>
+                <textarea name="message" class="text-area" placeholder="Quesions?" required></textarea>
+                <input type="submit" class="input btn btn-submit">
+            </form>
+        </div>
+    </section>
 
-								<article>
-									<header>
-										<h2><a href="#">Project 3<br />
-										Restaurant Home Page demo</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic04.jpg" alt="" /></a>
-									<p>A responsive resturant website design in order to help promote a resturant and attrack new customers.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
-									</ul>
-								</article>
+    <section>
+        
+        <div class="appstore"><a href="https://www.apple.com/ios/app-store/">Apple store</a></div>
+        <div class="googleplay"><a href="https://play.google.com/store">Google play store</a></div>
+    </section>
+    
+	
+	<footer> 2020 Express Cleaners Demo All rights reserved</footer>
+    
+    <script src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6.15.0/babel.min.js"></script>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
 
-								<article>
-									<header>
-										<h2><a href="#">Project 4<br />
-										E-commerce Demo</a></h2>
-									</header>
-									<a href="#" class="image fit"><img src="images/pic05.jpg" alt="" /></a>
-									<p>A business to consumer website, built in shopping carts and emailing list.</p>
-									<ul class="actions special">
-										<li><a href="#" class="button">Code</a></li>
-									</ul>
-								</article>
-							
-							</section>
-
-						<!-- Footer -->
-						<section>
-							<h2> Contact Me</h2>
-						</section>
-
-					</div>
-
-				<!-- Footer -->
-					<footer id="footer">
-						
-						<section class="split contact">
-							
-							<section>
-								<h3>Email</h3>
-								<p><a href="#">franciscopenajr5@gmail.com</a></p>
-							</section>
-							<section>
-								<h3>Social</h3>
-								<ul class="icons alt">
-								
-									<li><a href="https://github.com/frankpenajr" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								</ul>
-							</section>
-							
-						</section>
-					</footer>
-
-				<!-- Copyright -->
-					<div id="copyright">
-						<ul><li>&copy; Francisco's Portfolio</li><li>Copyright 2020</a></li></ul>
-					</div>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-	</body>
+    <div id="root"></div>
+</body>
 </html>
